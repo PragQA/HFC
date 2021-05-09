@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "chai-in-viewport": "^1.0.3",
+    "sinon-chai": "^3.6.0"
+  }
+}
