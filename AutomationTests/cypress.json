@@ -6,6 +6,6 @@
     "pageLoadTimeout": 80000,
     "requestTimeout": 80000,
     "responseTimeout": 60000,
-    "retries": 0
+    "retries": 2,
   }
   

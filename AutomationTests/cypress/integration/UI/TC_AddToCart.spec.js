@@ -1,8 +1,17 @@
 describe('Add to cart functionality for Mamacita', function() {
 
-    it('Guest user flow', function() {
+    beforeEach(() => {
+        if (cy.state("test").currentRetry() > 0) {
+        cy.visit("/");
         cy.clearCookies();
-        cy.visit('/')      
+        }
+      });
+      before(() => {
+        cy.visit("/");
+        cy.clearCookies();
+    });
+
+    it('Guest user flow', function() {
         cy.get('.button-home').eq(0).scrollIntoView();
         cy.get('.agree-cookie').contains('Ok').click();
         cy.get('.button-home').eq(1).scrollIntoView();
