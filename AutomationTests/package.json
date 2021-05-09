@@ -1,0 +1,24 @@
+{
+  "name": "automationtests",
+  "version": "1.0.0",
+  "description": "Test cases for HFC assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PragQA/HFC.git"
+  },
+  "author": "Pragna B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PragQA/HFC/issues"
+  },
+  "homepage": "https://github.com/PragQA/HFC#readme",
+  "dependencies": {
+    "chai-in-viewport": "^1.0.3",
+    "cypress": "7.2.0",
+    "sinon-chai": "^3.6.0"
+  }
+}
